@@ -78,7 +78,7 @@ industriel (protocoles, alarmes auditées, auto-test, traçabilité).
 |---|---|
 | Volume | ~4 700 lignes C++ · ~8 300 lignes QML · 20 composants UI |
 | Build | CMake · MSVC · Qt 6.5 · windeployqt |
-| Tests | Self-test C++ **29/29** — parseurs, SGP4, ECEF↔LLA, checksums corrompus |
+| Tests | Self-test C++ **27/27** — parseurs NMEA/TLE, SGP4, ECEF↔LLA, validation des checksums (rejet des trames invalides) |
 | Validé par | Clients Modbus/rotctld externes réels, curl API, stabilité mémoire sous stress (~97–145 Mo constants) |
 
 ![Poursuite](screenshots/orbittrack_poursuite.png)
